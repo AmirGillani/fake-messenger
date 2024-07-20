@@ -1,0 +1,24 @@
+.id{
+    border: 2px white solid;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#received 
+{
+   display: flex;
+   justify-content: flex-start;
+}
+
+.received-message{
+    border-radius: 25px;
+   background-color: #0866FF;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 8px;
+   margin: 5px;
+}

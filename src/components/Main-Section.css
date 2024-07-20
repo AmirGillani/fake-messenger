@@ -1,0 +1,69 @@
+#messenger{
+    width: 54vw;
+    background-color: white;
+    margin-top: 8%;
+    margin-left: 25%;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-auto-rows: minmax(80vh,auto);
+}
+
+#typing-box{
+    width: 57vw;
+    height: 10vh;
+    position: fixed;
+    bottom: 0px;
+    margin-left: 25%;
+}
+
+.send-container{
+    width: 57vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(54, 52, 52, 0.2);
+}
+
+@media only screen and (max-width: 850px) and (min-width: 480px) {
+    .icons{
+      display: none;
+    }
+  }
+
+@media only screen and (max-width: 480px) {
+
+    #messenger{
+        width: 70vw;
+        height: 90vh;
+        padding: 4%;
+        height: auto;
+    }
+
+    #typing-box{
+        width: 75vw;
+        height: 10vh;
+        position: fixed;
+        right: 0px;
+    }
+
+    .send-container{
+        width: 75vw;
+        height: 10vh;
+        position: fixed;
+        right: 0px;
+    }
+
+    .icons{
+        display: none;
+    }
+
+ }
+
+
+
+
+
+
+

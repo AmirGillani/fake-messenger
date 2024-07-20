@@ -1,0 +1,92 @@
+#sidebar {
+  height: 80vh;
+  width: 20vw;
+  background-color: #f0f2f5;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+  animation: FADE-IN 1s ease-in 0s 1;
+}
+
+#sidebar > li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.sidebar-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sidebar-items > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  align-self: center;
+  margin-right: 5px;
+}
+
+#i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  opacity: 50%;
+}
+
+#upload {
+  background-color: aqua;
+}
+
+#contact-name {
+  width: 80%;
+  height: 20%;
+  border: 2px grey solid;
+}
+.sidebar-items > h4 {
+  display: inline-block;
+  align-self: center;
+  color: #343435;
+}
+
+@keyframes FADE-IN {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) { 
+
+  #sidebar{
+    width: 20vw;
+    height: 100vh;
+  }
+
+  .sidebar-items > img {
+    width: 60px;
+    height: 60px;
+  }
+  .contact-name {
+    display: none;
+  }
+  .contact-msg {
+    display: none;
+  }
+
+ }
+

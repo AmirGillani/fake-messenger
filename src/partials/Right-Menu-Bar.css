@@ -1,0 +1,49 @@
+#sidebar2
+{
+    height: 80vh;
+    width: 15vw;
+    background-color: #F0F2F5;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 20px;
+    animation: FADE-IN 1s ease-in 0s 1;
+}
+
+#sidebar2 > li{
+    list-style-type: none;
+}
+
+#sidebar2 > h3{
+   color: gray;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+@keyframes FADE-IN {
+    0% {
+      opacity: 0%;
+    }
+    50% {
+      opacity: 50%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 480px) { 
+
+    #sidebar2{
+      display: none;
+    }
+  }

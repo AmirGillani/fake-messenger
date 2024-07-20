@@ -1,0 +1,15 @@
+#sent 
+{
+    display: flex;
+    flex-direction: row;
+   justify-content: flex-end;
+}
+
+.send-message{
+   border-radius: 25px;
+   background-color: green;
+   color: white;
+   display: inline-block;
+   padding: 8px;
+   margin: 5px;
+}
