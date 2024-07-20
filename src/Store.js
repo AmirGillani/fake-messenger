@@ -40,7 +40,7 @@ import {
   const store = createStore(
     reducer,
     initialState,
-    composeWithDevTools(applyMiddleware(...middleWare))
+    applyMiddleware(...middleWare)
   );
   
   export default store;
