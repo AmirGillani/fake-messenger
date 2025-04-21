@@ -82,6 +82,7 @@ function Contacts({ contact })
               id="i"
               onMouseOver={show}
               onMouseOut={hide}
+              style={{width:"60px", height:"60px", aspectRatio:1}}
 
               // INDIRECTLY CLICK INPUT 
               onClick={clickInputButtonIndirectly}
@@ -94,12 +95,12 @@ function Contacts({ contact })
                 ref={inputFile}
                 style={{ display: "none" }}
               />
-              <i class="fa-solid fa-camera fa-lg"></i>
+              <i class="fa-solid fa-camera fa-lg" ></i>
             </div>
           )}
 
           {condition2 && (
-            <img src={contact.img} onMouseOver={show} onMouseOut={hide} className="contact-img" />
+            <img src={contact.img} onMouseOver={show} onMouseOut={hide} className="contact-img" alt="contact" />
           )}
 
           <div>

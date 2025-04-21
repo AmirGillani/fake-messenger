@@ -12,9 +12,11 @@ function RightMenuBar({contact}) {
           <img
             src={contact.img}
             className="profile"
+            style={{width:"6rem", height:"6rem"}}
+            alt='profile'
           />
         </li>
-        <li><h3>{contact.name}</h3></li>
+        <li><h3 style={{fontWeight:"bolder"}}>{contact.name}</h3></li>
         <li>
           <div className="items">
             <div>
@@ -33,7 +35,7 @@ function RightMenuBar({contact}) {
         </li>
         <li>Custom Chat</li>
         <li>Media</li>
-        <li>Privcy</li>
+        <li>Privcy Policy</li>
       </ul>
     </div>
    </React.Fragment>

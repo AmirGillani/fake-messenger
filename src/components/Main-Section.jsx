@@ -80,7 +80,7 @@ function MainSection() {
 
     dispatch(saveMessages(messages));
     
-  },[messages])
+  },[messages,dispatch])
 
   return (
     <React.Fragment>
@@ -111,7 +111,7 @@ function MainSection() {
 
           {/* MESSAGE BOX */}
 
-          <input placeholder="Aa" onChange={inputHandler} value={message} />
+          <input placeholder="Aa" onChange={inputHandler} value={message} style={{outline:"none",width:"15rem"}} />
 
           {/* SEND BUTTON */}
 

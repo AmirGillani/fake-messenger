@@ -13,7 +13,7 @@ function LeftMenuBar() {
     <React.Fragment>
       <div>
         <ul id="sidebar">
-          <h3>Contacts</h3>
+          <h3 style={{fontWeight:800}}>Contacts</h3>
           {contacts &&
             contacts.map((contact,index) => {
               return (

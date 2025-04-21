@@ -16,6 +16,7 @@
 
 #sidebar2 > li{
     list-style-type: none;
+    width: 100%;
 }
 
 #sidebar2 > h3{
@@ -26,7 +27,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 80%;
 }
 
 @keyframes FADE-IN {
